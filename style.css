@@ -61,6 +61,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	
 }
+
+
 /* NAV BAR */
 h1 {
 	text-transform: uppercase;
@@ -72,14 +74,62 @@ h1 {
 nav {
 	width: 100%;
 	border-bottom: 1px solid #84DCCF;
+	background-color: #84DCCF56;
 }
 .nav-dash {
 	color: #EF626C;
 }
 
+
+
 /* MAIN AND SECTIONS */
+main {
+	display:flex;
+	flex-direction: column;
+	height: 200;
+	flex-wrap: wrap;
+}
+section {
+	margin-bottom: 20px;
+	width: 65%;
+}
+.aside {
+	width:35%;
+	
+}
+
+h2 {
+	font-size: 1.8rem;
+	text-align: center;
+	margin-top: 20px;
+}
+
  h3 {
 	 font-size: 1.3rem;
+	 font-weight: 600;
 	 padding: 3px;
 	 margin: 10px;
+}
+
+/* paragraphs */
+p, .lang-list{
+	margin-left:10px;
+}
+.inner-lang-list {
+	margin-left: 30px;
+}
+.bold {
+	font-weight: 800;
+}
+
+/* aside */
+
+
+/* footer */
+
+footer {
+	background-color: #312F2F;
+	color: #F6E8EA;
+	padding: 20px;
+	height: 200px;
 }
