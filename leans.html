@@ -16,14 +16,14 @@
     <nav>
         <h1>lean<span class="nav-dash">/</span>soria</h1>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">OTHER</a></li>
+            <li><a href="#">PLACE</a></li>
+            <li><a href="#">GO AWAY</a></li>
         </ul>
     </nav>
     <h2>Something to tell</h2>
-
+    <div class="img-container" id="banner"></div>
     <main>
         <section>
             <h3>Introducing myself</h3>
@@ -32,6 +32,9 @@
                 for about two months). My goal is move to another country and have a quiet life. I really love new
                 tecnology and enjoy playing some video games.
             </p>
+            <div class="img-cont">
+            <img src="https://images.unsplash.com/photo-1566837945700-30057527ade0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                alt="coffe picture" class="img-desc"> </div>
         </section>
         <section>
             <h3>Description</h3>
@@ -55,23 +58,56 @@
                     </ul>
                 </li>
             </ul>
-        
             <h3>Skills</h3>
-            <p>HTML <div class="html-stat"></div></p>
-            <p>CSS <div class="html-stat"></div></p>
-            <p>Javascript <div class="html-stat"></div></p>
-            <p>Git/Github <div class="html-stat"></div></p>
+            <p>HTML
+            <div class="html-stat"></div>
+            </p>
+            <p>CSS
+            <div class="html-stat"></div>
+            </p>
+            <p>Javascript
+            <div class="html-stat"></div>
+            </p>
+            <p>Git/Github
+            <div class="html-stat"></div>
+            </p>
         </section>
         <!-- ASIDE, put a picture with some footer -->
         <aside class="aside">
+            <img src="https://images.unsplash.com/photo-1457612928689-a1ab27da0dad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80"
+                alt="desktop office" class="aside-img">
             <p>
+                This is an aside, with some text information. And this must be on right side of the website. This is an
+                aside, with some text information. And this must be on right side of the website.
                 This is an aside, with some text information. And this must be on right side of the website.
+                This is an aside, with some text information. And this must be on right side of the website.
+                This is an aside, with some text information. And this must be on right side of the website.
+                This is an aside, with some text information. And this must be on right side of the website.
+
             </p>
         </aside>
 
     </main>
     <footer>
-        Hola
+        <p>Contact</p>
+        <form action="">
+            <p>
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Name" class="form-info" minlength="2" maxlength="25" required>
+            </p>
+            <p>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" placeholder="Last name" class="form-info" minlength="2" maxlength="25"
+                    required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" class="form-info" required>
+            </p>
+            <textarea name="message" id="message" placeholder="Leave me a message if you want it." cols="40" rows="5"
+                maxlength="300"></textarea>
+        </form>
+
     </footer>
 
 </body>
